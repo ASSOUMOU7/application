@@ -8,8 +8,9 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import RandomForestClassifier
 import time
 import os
+import duckdb
 
-os.chdir('/home/coder/work/ensae-reproductibilite-application')
+os.chdir(r'C:\Users\DELL\Documents\Projets\application')
 titanic = pd.read_csv('data.csv')
 
 
