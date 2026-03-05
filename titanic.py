@@ -7,6 +7,7 @@ import pathlib
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import RandomForestClassifier
 import time
+import duckdb
 import os
 import duckdb
 
